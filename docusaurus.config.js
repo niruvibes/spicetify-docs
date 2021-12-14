@@ -117,7 +117,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Spicetify. Built with 🎶 and 🦖.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Spicetify. Built with 🎶, 🦖 and some ヾ(≧▽≦*)o.`,
       },
       prism: {
         theme: lightCodeTheme,
