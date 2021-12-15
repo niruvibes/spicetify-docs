@@ -1,0 +1,45 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+ .heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  /*This was the gradient effect before anim*/
+  /*background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);*/
+  /*background: rgb(215,186,50);
+  background: linear-gradient(130deg, rgba(215,186,50,1) 0%, rgba(252,176,69,1) 50%, rgba(255,72,31,1) 100%);*/
+	background-color: #f7b42c;
+  background-image: linear-gradient(315deg, #f88e15 0%, #fc575e 74%, #f88e15 0%);
+  background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
